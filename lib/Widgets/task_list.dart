@@ -13,6 +13,7 @@ class TaskList extends StatelessWidget {
             return TaskTile(
 
                 isChecked: task.isDone,
+                
                 taskTitle: task.name,
                 toggleCheckBox: (checkBoxState){
                  taskData.updateTask(task);
